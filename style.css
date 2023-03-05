@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color :hsl(217, 54%, 11%);
+}
+.main-section {
+    border-radius: 20px;
+    margin: auto;
+    background-color: hsl(216, 50%, 16%);
+    width: 375px;
+    color : hsl(217, 54%, 11%);
+}
+
+h3 {
+    display: inline-block;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+h3:hover {
+    cursor: pointer;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 18px;
+}
+
+.article {
+    font-family: 'Outfit';
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 20px 0px;
+    width: 330px;
+}
+
+.img-container {
+    margin: 0 auto;
+    height: 330px;
+    background-image: url(./images/image-equilibrium.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.img-container:hover {
+    cursor: pointer;
+    position: relative;
+    background: url(./images/icon-view.svg) no-repeat center, hsla(178, 100%, 50%, 0.5);
+}
+
+.divider {
+    margin: 20px auto;
+    height: 1px;
+    border-radius: 1px;
+    background-color: hsl(215, 32%, 27%);
+
+}
+
+span {
+    font-size: 18px;
+}
+
+.element-1 {
+    gap: 3px;
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+}
+
+.element-1 img {
+    height: 18px;
+}
+
+p {
+    color:hsl(215, 51%, 70%);
+}
+
+.element-2 {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    color : hsl(215, 51%, 70%);
+}
+
+.footer {
+    height: 45px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.avatar {
+    width: 40px;
+    aspect-ratio: 1;
+    background-image: url("./images/image-avatar.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.create {
+    color : hsl(215, 51%, 70%);
+}
+.creator {
+    color :hsl(0, 0%, 100%);
+    cursor: pointer;
+}
